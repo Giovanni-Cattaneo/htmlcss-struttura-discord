@@ -101,9 +101,25 @@
     margin-bottom: 20px;
 }
 
-#fifth-section
+#fifth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsteelblue;
+}
 
- footer{
+#main-block-fifth{
+    width: 600px;
+    height: 600px;
+    background-color: darkgreen;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ #site_footer{
+    display: flex;
     height: 300px;
     background-color: greenyellow;
  }
+
+ .box
