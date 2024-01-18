@@ -3,17 +3,13 @@
     margin: 0;
 }
 
-header{
+#site_header{
   height: 100px;
   background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-around;
-}
-
-div{
- 
+  justify-content: space-evenly;
 }
 
 #logo, #login-button{
@@ -30,12 +26,63 @@ div{
 
 .flex-container{
     display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    flex-direction: column;
 }
 
-main{
-    height: 600px;
-    background-color: blueviolet;
+.flex-container-first{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
 }
+
+
+#jumbotron{
+    width: 700px;
+    height: 300px;
+    background-color: pink;
+    align-self: center;
+    margin: 20px;
+}
+
+#secondary-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.secondary-section{
+    height: 300px;
+    background-color: turquoise;
+    align-self: center;
+    flex-direction: row
+}
+
+.left{
+    background-color: red;
+    width: 450px;
+}
+
+.right{
+    width: 250px;
+}
+
+#third-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.secondary-section{
+    height: 300px;
+    background-color: turquoise;
+    align-self: center;
+    flex-direction: row
+}
+
 
 footer{
     height: 300px;
