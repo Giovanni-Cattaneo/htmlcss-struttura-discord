@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
 }
-
+/* #region header */
 #site_header{
   height: 100px;
   background-color: aqua;
@@ -17,7 +17,10 @@
     height: 50px;
     background-color: goldenrod;
 }
+/* #endregion header */
 
+
+/* #region main-first-container */
 #intestation{
     width: 500px;
     height: 50px;
@@ -36,7 +39,6 @@
     justify-content: center;
 }
 
-
 #jumbotron{
     width: 700px;
     height: 300px;
@@ -45,6 +47,9 @@
     margin: 20px;
 }
 
+/* #endregion main-first-container*/
+
+/* #region main-second-container */
 #secondary-section{
     display: flex;
     flex-direction: row;
@@ -71,6 +76,9 @@
     background-color: blue;
 }
 
+/* #endregion main-second-container*/
+
+/* #region main-third-container */
 #third-section{
     display: flex;
     flex-direction: row;
@@ -86,6 +94,9 @@
     margin-bottom: 20px;
 }
 
+/* #endregion main-third-container*/
+
+/* #region main-fourth-container*/
 #fourth-section{
     display: flex;
     flex-direction: row;
@@ -101,6 +112,9 @@
     margin-bottom: 20px;
 }
 
+/* #endregion main-fourth-container*/
+
+/* #region main-fifth-container*/
 #fifth-section{
     display: flex;
     justify-content: center;
@@ -116,7 +130,10 @@
     margin-bottom: 20px;
 }
 
- #site_footer{
+/* #endregion main-fifth-container*/
+ 
+/* #region footer*/
+#site_footer{
     display: flex;
     height: 350px;
     background-color: greenyellow;
@@ -135,6 +152,8 @@
  .primary{
     width: 200px;
  }
+ 
+/* #endregion footer*/
 
  #final-logo-button{
     display: flex;
