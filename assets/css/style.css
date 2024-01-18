@@ -118,7 +118,7 @@
 
  #site_footer{
     display: flex;
-    height: 500px;
+    height: 350px;
     background-color: greenyellow;
     justify-content: center;
  }
@@ -136,3 +136,9 @@
     width: 200px;
  }
 
+ #final-logo-button{
+    display: flex;
+    background-color: greenyellow;
+    justify-content: space-around;
+    padding-bottom: 10px;
+ }
