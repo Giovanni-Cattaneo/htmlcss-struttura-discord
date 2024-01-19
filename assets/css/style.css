@@ -172,7 +172,10 @@
     display: flex;
     background-color: greenyellow;
     padding-bottom: 10px;
+    padding-top: 5px;
     justify-content: center;
+    border-top: 1px solid white;
+    
  }
 
  .end{
