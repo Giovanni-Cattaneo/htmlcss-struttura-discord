@@ -18,7 +18,11 @@
     border: 1px solid black;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 3px;
+}
+
+.login-button{
+    justify-content: flex-end;
 }
 
 .intestation{
