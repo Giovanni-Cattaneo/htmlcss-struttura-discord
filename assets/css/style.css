@@ -62,15 +62,15 @@
 
 /* #endregion main-first-container*/
 
-/* #region main-second-container */
-#secondary-section{
+/* #region invite-container */
+#invite{
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: purple;
 }
 
-.secondary-section{
+.invite{
     height: 300px;
     background-color: turquoise;
     align-self: center;
@@ -89,17 +89,17 @@
     background-color: blue;
 }
 
-/* #endregion main-second-container*/
+/* #endregion invite-container*/
 
-/* #region main-third-container */
-#third-section{
+/* #region easy-find-container */
+#easy-find{
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: gray;
 }
 
-.third-section{
+.easy-find{
     height: 300px;
     align-self: center;
     flex-direction: row;
@@ -107,17 +107,17 @@
     margin-bottom: 20px;
 }
 
-/* #endregion main-third-container*/
+/* #endregion .easy-find-container*/
 
-/* #region main-fourth-container*/
-#fourth-section{
+/* #region fandom-container*/
+#fandom{
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: yellow;
 }
 
-.fourth-section{
+.fandom{
     height: 300px;
     align-self: center;
     flex-direction: row;
@@ -125,17 +125,17 @@
     margin-bottom: 20px;
 }
 
-/* #endregion main-fourth-container*/
+/* #endregion fandom-container*/
 
 /* #region main-fifth-container*/
-#fifth-section{
+#in-touch{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: lightsteelblue;
 }
 
-#main-block-fifth{
+#content-in-touch{
     width: 600px;
     height: 600px;
     background-color: darkgreen;
