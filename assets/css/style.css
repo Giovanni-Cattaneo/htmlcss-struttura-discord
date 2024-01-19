@@ -9,13 +9,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
+
 }
 
 .logo, .login-button{
     width: 100px;
     height: 50px;
     background-color: goldenrod;
+    border: 1px solid black;
 }
 /* #endregion header */
 
@@ -25,6 +26,7 @@
     width: 500px;
     height: 50px;
     background-color: goldenrod;
+    border: 1px solid black;
 }
 
 .flex-container{
