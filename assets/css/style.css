@@ -127,7 +127,7 @@
 
 /* #endregion fandom-container*/
 
-/* #region main-fifth-container*/
+/* #region in-touch-container*/
 #in-touch{
     display: flex;
     justify-content: center;
@@ -143,7 +143,7 @@
     margin-bottom: 20px;
 }
 
-/* #endregion main-fifth-container*/
+/* #endregion in-touch-container*/
  
 /* #region footer*/
 #site_footer{
